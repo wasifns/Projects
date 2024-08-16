@@ -1,0 +1,55 @@
+Building the Solution
+This rocket launch solution was recorded over a three-part livestream. This 
+GitHub
+ provides all the code, data, and links to recordings you need to get started building out application-driven analytics that revolve around time-stamped IoT sensor data.
+
+1. Development Environment Setup
+Prior to watching any of the livestreams, you’ll want to go through the setup steps listed in 
+GitHub readme
+. This will help you get started with an Atlas free tier account (if you don’t already have one) and download Compass.
+
+2. Pre-launch: Rocket launch setup and basic analytical queries with MongoDB’s aggregation framework
+The 
+Livestream 1
+ recording will walk you through the data captured in a rocket launch and how to write basic aggregation queries with MongoDB’s query API. Then you’ll perform basic analytics on the IoT sensor data with Atlas Charts. 
+GitHub folder
+.
+
+3. During-launch: Embedding visualizations and building search capabilities in a React app for real-time analytics
+Livestream 2
+ will show you how to embed charts into a React app for real-time analytics, and how to create a search capability for finding insights for specific notes, automated or manually generated, of interest. 
+GitHub folder
+.
+
+4. Post-launch: Finding insights across multiple application and third-party data sources
+Lastly, 
+Livestream 3
+ will show you how to find post-operation insights by combining rocket launch data with weather data from the same time frame and analyzing it in Tableau. 
+GitHub folder
+.
+
+Technologies and Products Used
+MongoDB developer data platform
+Atlas Database
+ with dedicated analytics nodes
+Time Series
+ with window functions
+Aggregation Pipelines
+Atlas SQL Interface
+Atlas Search
+Atlas Charts
+ with embedded charts
+Atlas Data Federation
+Atlas Trigger
+Partner technologies
+Amazon S3
+Tableau
+Key Considerations
+Modeling data across multiple data types
+Analyzing time series data with window functions
+Leveraging search indexes
+Doing in-place aggregation pipelines for minimizing ETL processes
+Finding insights from hot data (live application) and cold data (third party in Amazon S3)
+Integrating serverless functions to react to real-time data
+Author
+Jay Runkel, MongoDB
