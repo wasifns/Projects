@@ -1,7 +1,3 @@
-Building the Solution
-This rocket launch solution was recorded over a three-part livestream. This 
-GitHub
- provides all the code, data, and links to recordings you need to get started building out application-driven analytics that revolve around time-stamped IoT sensor data.
 
 1. Development Environment Setup
 Prior to watching any of the livestreams, you’ll want to go through the setup steps listed in 
